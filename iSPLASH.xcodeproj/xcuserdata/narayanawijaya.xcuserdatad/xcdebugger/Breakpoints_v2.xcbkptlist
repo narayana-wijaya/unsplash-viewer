@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "29D04B9F-9066-44C1-8A28-4AE4FA834019"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D9FEF96-32A6-4411-83E0-240094216DD0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iSPLASHTests/Helper/DataServiceMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3D9FEF96-32A6-4411-83E0-240094216DD0 - dd1503be12baf9bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iSPLASHTests.DataServiceMock.request(url: Swift.String, completion: (Swift.Result&lt;iSPLASH.ResponseModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iSPLASHTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narayanawijaya/Downloads/Test/iSPLASH/iSPLASHTests/Helper/DataServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "3D9FEF96-32A6-4411-83E0-240094216DD0 - dd1503be12baf9bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iSPLASHTests.DataServiceMock.request(url: Swift.String, completion: (Swift.Result&lt;iSPLASH.ResponseModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iSPLASHTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narayanawijaya/Downloads/Test/iSPLASH/iSPLASHTests/Helper/DataServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "1088">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6D132FA-5D6F-49D5-9685-A3CFC90E7674"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iSPLASHTests/Helper/DataServiceMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "request(url:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6D132FA-5D6F-49D5-9685-A3CFC90E7674 - dd1503be12baf87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iSPLASHTests.DataServiceMock.request(url: Swift.String, completion: (Swift.Result&lt;iSPLASH.ResponseModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iSPLASHTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narayanawijaya/Downloads/Test/iSPLASH/iSPLASHTests/Helper/DataServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1216">
+               </Location>
+               <Location
+                  uuid = "D6D132FA-5D6F-49D5-9685-A3CFC90E7674 - dd1503be12baf87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iSPLASHTests.DataServiceMock.request(url: Swift.String, completion: (Swift.Result&lt;iSPLASH.ResponseModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iSPLASHTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narayanawijaya/Downloads/Test/iSPLASH/iSPLASHTests/Helper/DataServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
