@@ -16,7 +16,10 @@ extension ImageListViewController: UICollectionViewDataSource {
     guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageListCell", for: indexPath) as? ImageCollectionViewCell else {
       fatalError("Cell not found")
     }
-    cell.setup(imageUrl: data[indexPath.row].urls.small)
+    if !data.isEmpty {
+      cell.setup(imageUrl: data[indexPath.row].urls.small)
+    }
+    
     return cell
   }
 }
@@ -44,7 +47,9 @@ extension ImageListViewController: CustomLayoutDelegate {
 
 extension ImageListViewController: UISearchResultsUpdating, UISearchControllerDelegate {
   func updateSearchResults(for searchController: UISearchController) {
-    guard let text = searchController.searchBar.text, !text.isEmpty else { return }
+    guard let text = searchController.searchBar.text, !text.isEmpty else {
+      presenter?.requestData()
+      return }
     presenter?.searchImage(text: text)
   }
 }

@@ -27,6 +27,8 @@ class NetworkService: DataService {
       }
       do {
         let entities = try JSONDecoder().decode(ResponseModel.self, from: data)
+        print("URL: \(url)")
+        print(entities)
         completion(.success(entities))
       } catch {
         completion(.failure(error))

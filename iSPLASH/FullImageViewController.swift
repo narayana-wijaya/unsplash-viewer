@@ -32,7 +32,7 @@ class FullImageViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    view.backgroundColor = .white
+    view.backgroundColor = .black
     imageView.sd_setImage(with: URL(string: imageUrl ?? ""), placeholderImage:  UIImage(systemName: "photo"))
   }
 }

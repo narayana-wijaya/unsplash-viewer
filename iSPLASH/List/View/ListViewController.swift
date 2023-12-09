@@ -59,7 +59,7 @@ class ImageListViewController: UIViewController, ListViewInterface, View {
   }
   
   func setupView() {
-    view.backgroundColor = .white
+    view.backgroundColor = .systemBackground
     view.addSubview(emptyLabel)
     view.addSubview(collectionView)
     NSLayoutConstraint.activate([
@@ -72,6 +72,24 @@ class ImageListViewController: UIViewController, ListViewInterface, View {
       emptyLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
       emptyLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
     ])
+    setupSearchView()
+  }
+  
+  func setupSearchView() {
+    searchController.searchBar.barStyle = .black
+    searchController.searchBar.tintColor = .white
+    
+    let textField = searchController.searchBar.searchTextField
+    
+    textField.defaultTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+    
+    let glassIcon = textField.leftView as! UIImageView
+    glassIcon.image = glassIcon.image?.withRenderingMode(.alwaysTemplate)
+    glassIcon.tintColor = .white
+    
+    let clearButton = textField.value(forKey: "clearButton") as! UIButton
+    clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
+    clearButton.tintColor = .white
   }
   
   func update(with data: [SplashImage]) {
