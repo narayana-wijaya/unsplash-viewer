@@ -28,7 +28,7 @@ class ListPresenter: Presenter, PresenterViewInterface {
     switch result {
     case .success(let data):
       self.totalPage = data.total_pages
-      view?.update(with: data.results)
+      view?.update(with: data)
     case .failure(let error):
       view?.update(with: error.localizedDescription)
     }
@@ -48,7 +48,7 @@ class ListPresenter: Presenter, PresenterViewInterface {
     requestData()
   }
   
-  func openFullImage(url: String, from view: UIViewController) {
-    router?.presentImageDetailView(imageUrl: url, from: view)
+  func openFullImage(image: SplashImage, from view: UIViewController) {
+    router?.presentImageDetailView(image: image, from: view)
   }
 }

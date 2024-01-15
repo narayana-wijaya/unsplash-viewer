@@ -17,10 +17,10 @@ class ListRouter: Router {
     window.rootViewController = nav
   }
   
-  func presentImageDetailView(imageUrl: String, from view: UIViewController) {
-    guard let nav = view.navigationController, let url = URL(string: imageUrl), UIApplication.shared.canOpenURL(url) else { return }
+  func presentImageDetailView(image: SplashImage, from view: UIViewController) {
+      guard let nav = view.navigationController, let url = URL(string: image.urls.small), UIApplication.shared.canOpenURL(url) else { return }
     
-    let imageViewer = FullImageViewController(imageUrl: imageUrl)
+    let imageViewer = FullImageViewController(image: image)
     nav.pushViewController(imageViewer, animated: true)
   }
 }

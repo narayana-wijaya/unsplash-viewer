@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39129C1D2B512EA000E7CE12 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 39129C1C2B512EA000E7CE12 /* SDWebImage */; };
+		39129C1F2B512EA700E7CE12 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 39129C1E2B512EA700E7CE12 /* SDWebImage */; };
+		39129C212B5142EF00E7CE12 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39129C202B5142EF00E7CE12 /* HeaderView.swift */; };
 		3953C3092998ACDA00EEDCFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C3082998ACDA00EEDCFD /* AppDelegate.swift */; };
 		3953C30B2998ACDA00EEDCFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C30A2998ACDA00EEDCFD /* SceneDelegate.swift */; };
 		3953C3122998ACDB00EEDCFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3953C3112998ACDB00EEDCFD /* Assets.xcassets */; };
@@ -18,7 +21,6 @@
 		3953C3412998C65D00EEDCFD /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C3402998C65D00EEDCFD /* ListModel.swift */; };
 		3953C3432998C6B800EEDCFD /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C3422998C6B800EEDCFD /* CustomLayout.swift */; };
 		3953C3452998C70B00EEDCFD /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C3442998C70B00EEDCFD /* ImageCollectionCell.swift */; };
-		3953C3482998C73300EEDCFD /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3953C3472998C73300EEDCFD /* SDWebImage */; };
 		3953C34A2998C7B800EEDCFD /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C3492998C7B800EEDCFD /* ListPresenter.swift */; };
 		3953C34C2998C86900EEDCFD /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C34B2998C86900EEDCFD /* ListInteractor.swift */; };
 		3953C34E2998C87700EEDCFD /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C34D2998C87700EEDCFD /* ListRouter.swift */; };
@@ -26,7 +28,6 @@
 		3953C3532998CCD600EEDCFD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C3522998CCD600EEDCFD /* NetworkService.swift */; };
 		3953C3552998D92900EEDCFD /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C3542998D92900EEDCFD /* AppDependencies.swift */; };
 		3953C357299A0AF500EEDCFD /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C356299A0AF500EEDCFD /* RouterTests.swift */; };
-		3953C35B299A19C600EEDCFD /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3953C35A299A19C600EEDCFD /* SDWebImage */; };
 		3953C35D299A2A3E00EEDCFD /* PresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953C35C299A2A3E00EEDCFD /* PresenterTests.swift */; };
 		39DFB56D299A86AC00F959D9 /* ListPresenterStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFB56C299A86AC00F959D9 /* ListPresenterStubs.swift */; };
 		39DFB56F299AFD6100F959D9 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFB56E299AFD6100F959D9 /* DataServiceProtocol.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39129C202B5142EF00E7CE12 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		3953C3052998ACDA00EEDCFD /* iSPLASH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSPLASH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3953C3082998ACDA00EEDCFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3953C30A2998ACDA00EEDCFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3953C3482998C73300EEDCFD /* SDWebImage in Frameworks */,
+				39129C1D2B512EA000E7CE12 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3953C35B299A19C600EEDCFD /* SDWebImage in Frameworks */,
+				39129C1F2B512EA700E7CE12 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +190,7 @@
 				3953C3422998C6B800EEDCFD /* CustomLayout.swift */,
 				3953C3442998C70B00EEDCFD /* ImageCollectionCell.swift */,
 				39DFB572299B080C00F959D9 /* ListViewController+Extension.swift */,
+				39129C202B5142EF00E7CE12 /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,7 +268,7 @@
 			);
 			name = iSPLASH;
 			packageProductDependencies = (
-				3953C3472998C73300EEDCFD /* SDWebImage */,
+				39129C1C2B512EA000E7CE12 /* SDWebImage */,
 			);
 			productName = iSPLASH;
 			productReference = 3953C3052998ACDA00EEDCFD /* iSPLASH.app */;
@@ -286,7 +289,7 @@
 			);
 			name = iSPLASHTests;
 			packageProductDependencies = (
-				3953C35A299A19C600EEDCFD /* SDWebImage */,
+				39129C1E2B512EA700E7CE12 /* SDWebImage */,
 			);
 			productName = iSPLASHTests;
 			productReference = 3953C31B2998ACDC00EEDCFD /* iSPLASHTests.xctest */;
@@ -343,7 +346,7 @@
 			);
 			mainGroup = 3953C2FC2998ACDA00EEDCFD;
 			packageReferences = (
-				3953C3462998C73300EEDCFD /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				39129C1B2B512DC600E7CE12 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 3953C3062998ACDA00EEDCFD /* Products */;
 			projectDirPath = "";
@@ -402,6 +405,7 @@
 				3953C3532998CCD600EEDCFD /* NetworkService.swift in Sources */,
 				39DFB56F299AFD6100F959D9 /* DataServiceProtocol.swift in Sources */,
 				3953C3412998C65D00EEDCFD /* ListModel.swift in Sources */,
+				39129C212B5142EF00E7CE12 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,25 +745,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3953C3462998C73300EEDCFD /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+		39129C1B2B512DC600E7CE12 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				minimumVersion = 5.18.10;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3953C3472998C73300EEDCFD /* SDWebImage */ = {
+		39129C1C2B512EA000E7CE12 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3953C3462998C73300EEDCFD /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = 39129C1B2B512DC600E7CE12 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
-		3953C35A299A19C600EEDCFD /* SDWebImage */ = {
+		39129C1E2B512EA700E7CE12 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3953C3462998C73300EEDCFD /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = 39129C1B2B512DC600E7CE12 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
